@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Walker</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
 
+  <!-- Top bar -->
+  <div class="top-bar">
+    <p>Welcome to our Pet Care website | Call us: (00) 1234-5678</p>
+  </div>
+
+  <!-- Navigation bar -->
+  <header class="navbar">
+    <div class="logo">🐾 Pet Walker</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Pet Services & Dog Walking</h1>
+      <p>We specialize in pet care, dog walking and loving your pets like family.</p>
+      <a href="#" class="hero-btn">More Information</a>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
