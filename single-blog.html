@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post do Blog - Mia Mais Pets</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🐾 MIA MAIS PETS</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html#home">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#about">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="index.html#location">Localização</a>
+    <a href="index.html#faq">FAQ</a>
+  </nav>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<section class="single-post">
+  <div class="container single-post-container">
+    <!-- Post será renderizado aqui via JS -->
+  </div>
+</section>
+
+<footer class="footer">
+  <!-- Footer igual ao seu site -->
+</footer>
+
+<script src="js/blog.js"></script>
+<script>
+function toggleMenu() {
+  document.getElementById('navLinks').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
